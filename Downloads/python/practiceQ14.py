@@ -1,0 +1,6 @@
+a=int(input('enter a amount in rupees'))
+b=int(input('enter a discount percentage'))
+discount_amount=(a*b/100)
+final_price=(a-discount_amount)
+print(discount_amount)
+print(final_price)

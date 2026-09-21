@@ -1,0 +1,5 @@
+a=int(input("enter a number of seconds"))
+minutes=(a//60)
+remaining_seconds=(a%60)
+print(minutes)
+print(remaining_seconds)

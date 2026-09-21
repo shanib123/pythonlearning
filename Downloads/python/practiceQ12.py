@@ -1,0 +1,5 @@
+a=float(input('enter the number of days'))
+weeks=(a//7)
+remaining_days=(a%7)
+print("weeks =",weeks)
+print("remaining_days =",remaining_days)
